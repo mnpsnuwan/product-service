@@ -2,7 +2,6 @@ package com.imatrix.microservices.product.controller;
 
 import com.imatrix.microservices.product.dto.ProductRequest;
 import com.imatrix.microservices.product.dto.ProductResponse;
-import com.imatrix.microservices.product.model.Product;
 import com.imatrix.microservices.product.service.ProductService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

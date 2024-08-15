@@ -9,6 +9,6 @@ import java.math.BigDecimal;
  *
  * @author : iMatrixLabs
  */
-public record ProductResponse(String id, String name, String description, BigDecimal price)
+public record ProductResponse(String id, String name, String description, String skuCode, BigDecimal price)
 {
 }
